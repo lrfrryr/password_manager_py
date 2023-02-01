@@ -2,6 +2,6 @@
 Command line interface python password encryptor, generator and manager.
 
 
-<img src="/images/output/video1.gif" width="250" height="250"/>
+<img src="password_manager.gif" width="80%"/>
 
 
