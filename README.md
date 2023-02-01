@@ -16,18 +16,18 @@ The program takes a main password and uses it to securly store and access any ot
 
 ### Adding new password
 
-- User enters the site for which the new password will be stored
-- Before entering new password to store, user needs to enter main password
-- Program hashes entered password and compares to existing hashed main password to validate
-- User then enters new password that gets encrypted and saved to the database with the rest of the fields using the main key
+- User enters the site name for which the new password will be stored
+- Before entering the new password to store, user needs to enter main password
+- Program hashes entered main password and compares it to existing hashed main password for validation
+- User then enters the new password that gets encrypted and saved to the database with the rest of the fields using the main key
 
 ### Fetching already saved password
 
-- User enters the information of the password to retrieve
-- Program displays the matching data
+- User enters the information (example: site name) of the password to retrieve
+- Program fetchs and displays the matching data from the database
 - User can choose to get a password copied to clipboard
 - User enters main password that gets validated
-- Password to retrieved gets decrypted and copied
+- Password to retrieve gets decrypted and copied
 
 
 
