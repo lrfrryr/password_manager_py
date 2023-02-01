@@ -7,21 +7,21 @@ The program takes a main password and uses it to securly store and access any ot
 
 ## Implementation
 
-### Configuration of passwords database (mySQL)
+### Configuration of password database (mySQL)
 
 - User enters main password that gets hashed and saved.
 - Program generates device secret
 - Hashing function takes device secret and main password to create a main key
 - Main key is used for encryption and decryption
 
-### Adding new passwords
+### Adding new password
 
 - User enters the site for which the new password will be stored
 - Before entering new password to store, user needs to enter main password
 - Program hashes entered password and compares to existing hashed main password to validate
 - User then enters new password that gets encrypted and saved to the database with the rest of the fields using the main key
 
-### Fetching already saved passwords
+### Fetching already saved password
 
 - User enters the information of the password to retrieve
 - Program displays the matching data
