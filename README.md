@@ -29,6 +29,15 @@ The program takes a main password and uses it to securly store and access any ot
 - User enters main password that gets validated
 - Password to retrieve gets decrypted and copied
 
+#### Requirements
+- Python 3
+- MySQL
+
+#### How to use
+- Clone repository and install needed packages
+- Run config.py
+- Run main.py with required parameters according to desired outcome, as shown in gif
+
 
 
 <img src="pass_manager.gif"/>
